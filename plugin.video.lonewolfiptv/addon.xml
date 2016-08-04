@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.lonewolfiptv" name="Lone Wolf IPTV" version="1.2.0" provider-name="lonewolf">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="server.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Lone Wolf IPTV</summary>
+		<description lang="en">Please make sure you have login details to use this addon, If you do not have login details please visit www.lonewolftvpr.com to get access to this addon</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum>http://lonewolftvpr.com</forum>
+
+
+	</extension>
+</addon>
